@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stalin Komputer</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="bg-dark text-white">
+        <div class="container py-3 d-flex justify-content-between align-items-center">
+            <h1 class="h4 mb-0">Stalin Komputer</h1>
+            <nav>
+                <ul class="list-unstyled mb-0 d-flex">
+                    <li class="nav-item"><a href="index.html" class="nav-link text-white">Beranda</a></li>
+                    <li class="nav-item"><a href="#1" class="nav-link text-white">Produk</a></li>
+                    <li class="nav-item"><a href="#2" class="nav-link text-white">Tentang Kami</a></li>
+                    <li class="nav-item"><a href="#3" class="nav-link text-white">Kontak</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main id="1"class="container py-4">
+        <section class="top">
+            <h2>Selamat Datang di Stalin Komputer</h2>
+            <p1>Kami menyediakan berbagai macam produk komputer dengan kualitas terbaik dan harga yang terjangkau.</p>
+        </section>
+        <section class="tops">
+            <h2>Produk Kami</h2>
+            <div class="prodcont">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card mb-3">
+                            <img src="IMG/Asus_ROG_Zephyrus_G14_1.jpg" class="card-img-top" alt="Laptop">
+                            <div class="card-body">
+                                <h5 class="card-title">Laptop</h5>
+                                <p class="card-text">Laptop adalah jenis komputer portabel yang umumnya digunakan untuk keperluan kerja atau hiburan. Laptop biasanya lebih ringkas dan mudah dibawa-bawa daripada Desktop PC.</p>
+                                <a href="Laptop.html" class="btn btn-primary">Lihat Produk</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card mb-3">
+                            <img src="IMG/PC gaming 4.jpeg" class="card-img-top" alt="Desktop">
+                            <div class="card-body">
+                                <h5 class="card-title">Desktop</h5>
+                                <p class="card-text">Desktop PC adalah jenis komputer yang umumnya digunakan untuk keperluan kerja atau gaming. Desktop PC biasanya memiliki spesifikasi yang lebih tinggi daripada laptop atau tablet, sehingga mampu menjalankan aplikasi atau game yang lebih berat.</p>
+                                <a href="Desktop.html" class="btn btn-primary">Lihat Produk</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card mb-3">
+                            <img src="IMG/Lamp.jpeg" class="card-img-top" alt="Aksesoris Komputer">
+                            <div class="card-body">
+                                <h5 class="card-title">Aksesoris Komputer</h5>
+                                <p class="card-text">Aksesoris komputer meliputi berbagai jenis perangkat tambahan yang dapat digunakan untuk meningkatkan kinerja atau fungsi dari komputer, seperti keyboard, mouse, speaker, atau headset.</p>
+                                <a href="accesory.html" class="btn btn-primary">Lihat Produk</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="bottom">
+            <section class="mb-4">
+                <h2 id="2">Tentang Kami</h2>
+                <p1>Stalin Komputer adalah toko komputer yang menyediakan berbagai produk, aksesoris, dan layanan perbaikan komputer dengan kualitas terbaik dan harga yang kompetitif. Berdiri sejak tahun 1923, Stalin Komputer telah melayani kebutuhan teknologi informasi bagi pelanggan dari berbagai kalangan, baik perorangan maupun bisnis.</p>
+            </section>
+            <section>
+                <h2 id="3">Kontak</h2>
+                <p1>Jika Anda memiliki pertanyaan atau ingin memesan produk, silahkan hubungi kami melalui:</p>
+                <ul>
+                    <li>Telepon: 0823-1146-3002</li>
+                    <li>Email: Stalincomputer@Gmail.com</li>
+                    <li>Alamat: Jl. Kosambi No. 420, Karawang</li>
+                </ul>
+            </section>
+        </div>
+        <script>
+            window.watsonAssistantChatOptions = {
+              integrationID: "bca8df49-f2f5-4f81-be77-82de2dabed4c", // The ID of this integration.
+              region: "us-south", // The region your integration is hosted in.
+              serviceInstanceID: "0ab1acff-601a-42cd-b7b1-7c1d737d0bc7", // The ID of your service instance.
+              onLoad: function(instance) { instance.render(); }
+            };
+            setTimeout(function(){
+              const t=document.createElement('script');
+              t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+              document.head.appendChild(t);
+            });
+          </script>
+    </main>
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/XvoWjWTa+I4M7bT"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+</html>

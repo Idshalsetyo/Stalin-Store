@@ -1,0 +1,36 @@
+body{
+    background-image:url('IMG/7175974.png') ;
+    background-repeat: no-repeat ;
+    background-attachment: fixed;
+    background-size: cover;
+}
+h2,ul,p1{
+    color: white;
+}
+
+.prodcont{
+    display: flex;
+    flex-direction: row;
+    height: max-content;
+}
+
+.tops{
+    display: flex;
+    flex-direction: column;
+}
+
+.prodcont .card img .card-img-top{
+        /* display: flex;
+        /* align-items: center; */
+        justify-content: center;
+        margin: auto;
+    /* max-height: min-content; */
+    max-width: min-content;
+    /* width: max-content; */
+}
+.top{
+    background-color: rgba(0, 0, 0,0.5);
+}
+.bottom{
+background-color: rgba(0, 0, 0,0.5);
+}   
